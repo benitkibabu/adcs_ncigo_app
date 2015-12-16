@@ -1,0 +1,30 @@
+<ion-view view-title="Settings">
+	<ion-nav-buttons side="secondary" side="left">
+ 		<button class="button" ng-click="saveChanges()">
+	      Save
+	    </button>
+  	</ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+    	<div class="item item-divider">
+	    	General
+	  	</div>
+
+	    <div class="item item-divider">
+	    	Notification
+	  	</div>
+	    <ion-toggle ng-model="pref.enableSound">
+	        Sound
+	    </ion-toggle>
+	    <ion-toggle  ng-model="pref.enableNotification">
+	        Update Notification
+	    </ion-toggle>
+	    <div class="item item-divider">
+	    	App info
+	  	</div>
+	  	<div class="item">
+	  		<label>Version 1.0.1</label>
+	  	</div>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+
+.bar-positive > .bar {
+	background-color: #3d90f5 !important;
+}
+.tabs-positive > .tabs{
+	background-color: #3d90f5 !important;
+}
+.demo-card-square.mdl-card {
+  width: 100%;
+  min-height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #222222;
+  background-color: #ffffff;
+  border-radius: 10px;
+ /* background:
+    url('../img/ic_launcher.png') bottom right 15% no-repeat;*/
+}
+.full-width{
+	width:100% !important;
+	margin: 0 auto ;
+}
+.margin-top-zero{
+	margin-top:0px;
+}
+.login-bg{
+	background-color: #26ae90;
+}
+.bg-other{
+	background-color: #2e3237;
+}
+.title-white{
+	color:white;
+}
+.bg-main{
+	background-color:#428bca;
+}
+.bg-updates{
+	background-color: #F78181;
+}
+.title-center{
+	width: 70%;
+	margin: 0 auto;
+}

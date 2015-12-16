@@ -1,0 +1,19 @@
+<ion-view view-title="{{user.number}}">
+  <ion-nav-buttons side="secondary" side="left">
+     <button class="button" ng-click="logout()">
+      Logout
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding bg-other" >
+    <div class="list card">
+      <div class="item tabs-secondary">
+        <h2>Welcome! {{user.number}}</h2>
+      </div>
+      <div class="item item-body">
+        <h2>Student Number: {{user.number}}</h2>
+        <p>Email: {{user.email}}</p> 
+        <p>Course: {{user.course}}</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
